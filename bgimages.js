@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   document.querySelectorAll('[data-bg]').forEach(function(el) {
-    el.style.backgroundImage = "url('" + el.getAttribute('data-bg') + "')";
+    const filename = el.getAttribute('data-bg');
+    el.style.backgroundImage = "url('" + filename + "')";
+    el.title = filename;
   });
 });
