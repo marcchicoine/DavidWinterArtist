@@ -24,9 +24,9 @@ document.addEventListener('DOMContentLoaded', function() {
             expandedImage.src = imageUrl;
 
             // Set the overlay text with a hyperlink and the image filename
-            const overlayContent = `Printed in editions of 1 with 1 artist's proof
-16 inches square or 27 inches, your choice. <br>
-contact: 
+            const overlayContent = `Printed in editions of 1 with 1 artist's proof. <br>
+For sizing and pricing <br>
+contact:
                 <a href="mailto:winterworks92@gmail.com?subject=${imageName}" target="_blank">winterworks92@gmail.com</a> <br><br>
                 <i> Image # ${imageName} </i>`;
             overlayText.innerHTML = overlayContent;
